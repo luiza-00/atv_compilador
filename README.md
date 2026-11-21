@@ -1,7 +1,7 @@
 # Static Checker Ali2026-2
 
 ![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?logo=openjdk&logoColor=white)
-![Language](https://img.shields.io/badge/Spec-Ali2026--2-blue)
+![Repo Size](https://img.shields.io/github/repo-size/luiza-00/atv_compilador)
 ![I/O](https://img.shields.io/badge/I%2FO-.262%20%E2%86%92%20.LEX%20%2F%20.TAB-informational)
 ![Status](https://img.shields.io/badge/Status-Em%20Andamento-yellow)
 
