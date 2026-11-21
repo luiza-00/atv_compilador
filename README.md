@@ -1,5 +1,10 @@
 # Static Checker Ali2026-2
 
+![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?logo=openjdk&logoColor=white)
+![Language](https://img.shields.io/badge/Spec-Ali2026--2-blue)
+![I/O](https://img.shields.io/badge/I%2FO-.262%20%E2%86%92%20.LEX%20%2F%20.TAB-informational)
+![Status](https://img.shields.io/badge/Status-Em%20Andamento-yellow)
+
 ## 📌 Índice
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Tecnologias Utilizadas](#tecnologias)
