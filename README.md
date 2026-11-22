@@ -59,13 +59,13 @@ A linguagem **Ali2026-2** é baseada em parte da especificação da linguagem C.
 - **Operação syntax-driven:** Atua como programa principal, inicializando as estruturas de dados, coordenando as chamadas ao analisador léxico e acompanhando o contexto dos identificadores.
 
 <a id="analise-lexica"></a>
-### 2. Análise Léxica & Filtros
+### 2. Análise Léxica e Filtros
 - **Tokenização unitária e case-insensitive:** Lê o código por caractere, forma um átomo por chamada e converte todos os lexemas fora de literais para caixa alta antes do reconhecimento e armazenamento;
 - **Limpeza de espaços e comentários:** Descarta espaços em branco, tabulações e quebras de linha (filtrando repetições), além de ignorar comentários de linha (`// ...`) e de bloco (`/* ... */`) mantendo a contagem exata das linhas do arquivo original;
 - **Máximo comprimento e truncagem:** Aplica o critério do maior comprimento possível e limita cada átomo a no máximo 30 caracteres válidos, descartando o excedente até o próximo delimitador e garantindo a validade do token truncado.
 
 <a id="tratamento-de-codificacao"></a>
-### 3. Tratamento de Codificação & Filtro de 1º Nível
+### 3. Tratamento de Codificação e Filtro de 1º Nível
 - **Leitura Resiliente:** O leitor realiza a decodificação dos arquivos fontes preservando a integridade do fluxo de entrada sem interromper a execução por incompatibilidade de formato;
 - **Filtro de 1º Nível:** Conforme a especificação da linguagem, caracteres inválidos para o alfabeto da linguagem são desconsiderados na formação dos átomos sem gerar erro de execução e sem atuar como delimitador, permitindo que a montagem do token continue.
 
