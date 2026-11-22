@@ -1,0 +1,27 @@
+program TesteConstantesLiterais
+
+declarations
+    varType integer: intSimples, semFracao;
+    varType real: realSimples, expMinusculo, expPositivo, expNegativo;
+    varType string: strPermitida, strQuebrada;
+    varType character: letraA, letraZ
+endDeclarations
+
+functions
+    funcType void: testarLiterais ()
+    {
+        intSimples := 42;
+        semFracao := 10.;
+        realSimples : 3.1415;
+        expMinusculo : 2.5e3;
+        expPositivo : 1.75E+10;
+        expNegativo : 9.8E-2;
+        strPermitida : "VALOR_TOTAL $ 100.50 OK";
+        strQuebrada : "TEXTO@INTERROMPIDO";
+        letraA : 'a';
+        letraZ : 'Z'
+    }
+    endFunction
+endFunctions
+
+endProgram

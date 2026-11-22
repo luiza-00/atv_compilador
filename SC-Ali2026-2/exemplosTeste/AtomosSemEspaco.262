@@ -1,0 +1,14 @@
+program TesteSemEspacos
+declarations
+varType integer:a,b,c;
+varType real:x,y;
+endDeclarations
+functions
+funcType void:rodar(){
+a:=10;b:=20;c:=a+b*2-1/1%2;
+x:1.5;y:2.5;
+if(a<=b)if(b>=a)if(a!=b)if(a#b)if(a==10){a:=0;}endif endif endif endif endif
+}
+endFunction
+endFunctions
+endProgram

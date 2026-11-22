@@ -1,0 +1,19 @@
+PrOgRaM _ProgramaIniciadoComSublinhado
+
+DeClArAtIoNs
+    vArTyPe InTeGeR: variavelMix, _auxiliar_1;
+    VaRtYpE bOoLeAn: flagTeste
+eNdDeClArAtIoNs
+
+FuNcTiOnS
+    fUnCtYpE vOiD: _funcaoComSublinhado ()
+    {
+        VARIAVELMIX := 10;
+        variavelmix := VariavelMix + _AUXILIAR_1;
+        FLAGTESTE := TrUe;
+        fLaGtEsTe := FaLsE
+    }
+    EnDfUnCtIoN
+eNdFuNcTiOnS
+
+eNdPrOgRaM

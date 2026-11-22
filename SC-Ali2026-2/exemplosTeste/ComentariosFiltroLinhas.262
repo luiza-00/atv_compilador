@@ -1,0 +1,31 @@
+// Comentario na linha 1 com simbolos invalidos @ ~ & |
+program TesteComentariosEFiltro
+
+/* Comentario de bloco
+   ocupando varias linhas
+   com palavras reservadas program if while
+   e simbolos invalidos @ # $ % & *
+*/
+declarations
+    varType integer: contador_1
+endDeclarations
+
+functions
+    funcType integer: processar ()
+    {
+        // Filtro de 1o nivel: caracteres invalidos sao removidos antes de formar atomos
+        @ ~ & |
+        wh@ile (contador_1 < 7)
+            cont~ador_1 := contador_1 + 1
+        endWhile;
+
+        contador_1 := contador_1 / 2;
+        contador_1 := contador_1 + 1;
+        contador_1 := contador_1 + 1;
+        contador_1 := contador_1 + 1;
+        return contador_1
+    }
+    endFunction
+endFunctions
+
+endProgram

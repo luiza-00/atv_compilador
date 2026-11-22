@@ -1,0 +1,21 @@
+program TesteTruncagemLimiteTrinta
+
+declarations
+    varType integer: identificadorComExatamenteTrintaC;
+    varType real: numeroRealMuitoLongoParaTruncar;
+    varType string: textoLongo
+endDeclarations
+
+functions
+    funcType integer: whileContadorAcimaDeTrintaCaracteres ()
+    {
+        identificadorComExatamenteTrintaCaracteresExtra := 100;
+        numeroRealMuitoLongoParaTruncar : 12345678901234567890123456789.99;
+        numeroRealMuitoLongoParaTruncar : 1234567890123456789012345.12e+45;
+        textoLongo : "STRING COM MAIS DE TRINTA CARACTERES DEVE MANTER ASPAS";
+        return identificadorComExatamenteTrintaC
+    }
+    endFunction
+endFunctions
+
+endProgram

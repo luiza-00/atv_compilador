@@ -1,0 +1,21 @@
+program TesteStringsCharsBorda
+
+declarations
+    varType string: s1, s2, s3;
+    varType character: c1, c2, c3
+endDeclarations
+
+functions
+    funcType void: validarLiterais ()
+    {
+        s1 : "TEXTO NORMAL 123 $_.";
+        s2 : "TEXTO;QUEBRADO";
+        s3 : "STRING SEM FECHAR NO FIM DA LINHA
+        c1 : 'm';
+        c2 : '9';
+        c3 : 'Z
+    }
+    endFunction
+endFunctions
+
+endProgram

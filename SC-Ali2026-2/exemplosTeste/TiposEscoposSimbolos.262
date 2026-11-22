@@ -1,0 +1,56 @@
+program SistemaCompleto2026
+
+declarations
+    varType integer: qtd, total;
+    varType real: media;
+    varType string: titulo;
+    varType character: status;
+    varType boolean: ativo;
+    varType integer []: vetInt;
+    varType real []: vetReal;
+    varType string []: vetStr;
+    varType character []: vetChar;
+    varType boolean []: vetBool
+endDeclarations
+
+functions
+    funcType void: inicializar ()
+    {
+        qtd := 0;
+        media : 0.0;
+        titulo : "INICIO";
+        status : 'A';
+        ativo := true;
+        return
+    }
+    endFunction
+
+    funcType real: calcular (paramType integer: a, paramType real: lista[10])
+    {
+        while (a < 10)
+            if (a == 5)
+                break
+            else
+                a := a + 1 - 0 * 1 / 1 % 2
+            endif
+        endWhile;
+
+        if (a <= 10)
+            if (a >= 1)
+                if (a > 0)
+                    if (a != 0)
+                        if (a # 99)
+                            ativo := false
+                        endif
+                    endif
+                endif
+            endif
+        endif;
+
+        print titulo ?;
+        return media
+    }
+    endFunction
+endFunctions
+
+endProgram

@@ -1,0 +1,19 @@
+program TesteComentariosBorda
+
+declarations
+    varType real: resultado
+endDeclarations
+
+functions
+    funcType real: calcular ()
+    {
+        // Barra simples seguida de espaco nao e comentario
+        resultado : 20.0 / 4.0;
+        /* Comentario de bloco aberto ate o fim do arquivo
+           tudo abaixo deve ser ignorado sem travar em loop infinito
+           resultado : 999.99;
+        return resultado
+    }
+    endFunction
+endFunctions
+endProgram

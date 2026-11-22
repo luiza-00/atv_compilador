@@ -1,0 +1,19 @@
+program TesteFiltroColado
+
+declarations
+    varType integer: valor1, valor2
+endDeclarations
+
+functions
+    funcType void: executar ()
+    {
+        val@or1 := 12~34;
+        valor2 := valor1 :@= 10;
+        in~teger := 5;
+        /* Caracteres invalidos fora de comentarios: ç ã é £ § */
+        çãé£§
+    }
+    endFunction
+endFunctions
+
+endProgram

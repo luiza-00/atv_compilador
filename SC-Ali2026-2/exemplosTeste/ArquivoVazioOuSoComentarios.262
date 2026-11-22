@@ -1,0 +1,4 @@
+// Arquivo apenas com comentarios e caracteres filtrados
+/* Nenhum atomo deve ser gerado mas os arquivos .LEX e .TAB precisam ser criados
+   apenas com o cabecalho */
+@ ~ & | ^
